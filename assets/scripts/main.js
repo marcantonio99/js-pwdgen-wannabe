@@ -13,5 +13,5 @@ console.log(number);
 let password = `${name + surname + preferitColor + number}`;
 console.log(password);
 
-let frase = `la tua password terribile : ${password}`;
-document.getElementById('passwordGen').innerHTML = `la tua password terribile : ${password}`;
+let frase = `la tua password insicurissima è : ${password}`;
+document.getElementById('passwordGen').innerHTML = `la tua password insicurissima è : ${password}`;
